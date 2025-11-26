@@ -18,7 +18,7 @@ from etl_ilumeo1 import executar_etl   # <<< ATENÇÃO: usa etl_ilumeo1
 # CONFIG
 # -------------------------------------------------------------------------------------------------------------
 load_dotenv()
-os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
+
 st.set_page_config(page_title="ILUMEO - AI Marketing", layout="wide")
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
