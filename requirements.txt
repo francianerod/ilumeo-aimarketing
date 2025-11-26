@@ -1,31 +1,12 @@
-# Interface
-streamlit==1.38.0
-
-# Variáveis de ambiente
-python-dotenv==1.0.1
-
-# Modelos e APIs
-openai==1.51.2
-litellm==1.43.5
-
-# CrewAI
-crewai==0.36.0
-crewai-tools==0.12.0
-
-# Langchain (necessário apenas se usado internamente pelo CrewAI)
-langchain==0.2.11
-langchain-core==0.2.24
-langchain-community==0.2.7
-langchain-openai==0.1.14
-
-# ETL (Excel + DataFrames)
-pandas>=2.2.2
-openpyxl>=3.1.2
-numpy==1.26.4
-
-# Necessário apenas para manipulação de JSON e requests internas
-requests==2.32.3
-
-# Segurança/requests (dependências usadas implicitamente)
-urllib3==2.2.3
-certifi==2024.8.30
+streamlit
+python-dotenv
+openai
+pandas
+openpyxl
+crewai
+crewai-tools
+langchain
+langchain-core
+langchain-community
+langchain-openai
+litellm
